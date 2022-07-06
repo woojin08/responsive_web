@@ -12,7 +12,7 @@
 .float02 .container {width: 1200px; margin: 0 auto; }
 .float02 .container::after { content: ""; display: block; clear: both;}
 .float02 .container .des { float: left; width: 50%; padding: 0 15px; }
-.float02 .container figure { float: right; width: 50%; padding: 0 15px; }
+.float02  figure { float: right; width: 50%; padding: 0 15px; }
 
 @media (max-width: 768px) {
     .header {display: none; }
@@ -21,5 +21,5 @@
 .float02 .container {width: auto; margin: 0 auto; }
 .float02 .container::after { content: ""; display: block; clear: both;}
 .float02 .container .des { float: none; width: 100%; padding: 0 15px; }
-.float02 .container figure { float: none; width: 100%; padding: 0 15px; }
+.float02  figure { float: none; width: 100%; padding: 0 15px; }
 }
